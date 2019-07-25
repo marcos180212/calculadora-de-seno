@@ -11,7 +11,7 @@ public class Run {
     }
 
     public static double seno(float x) {
-        double rad = (x / 360) * (2*Math.PI);
+        double rad = (x*Math.PI / 180);
         for (int n = 0; n < 10; n++) {
             double fatorial = fatorial(2*n+1);
             res += Math.pow(-1, n) * Math.pow(rad, 2*n+1) / fatorial;
