@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.text.NumberFormat;
 
 public class Run {
     static double res = 0;
